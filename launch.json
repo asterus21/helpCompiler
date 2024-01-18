@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "module": "torch.distributed.launch --nproc_per_node=1 main_swav.py",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "args": ["--data_path", "/dataset/imagenet/train"]
+        }
+    ]
+}
