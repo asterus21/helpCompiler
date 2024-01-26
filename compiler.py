@@ -14,7 +14,6 @@ class HelpCompiler:
         """ The function is to accept a path to an auto-test build 
         and returns a first (usually a single item) of the list. """
 
-        global build_number
         build_number = os.listdir(path=build_path)[0]
         # print(build_number)
         return build_number
