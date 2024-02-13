@@ -25,9 +25,7 @@ class HelpCompiler:
         as a string to execute a Command Line (CMD) script."""
 
         out = subprocess.run(
-            "@ECHO OFF && pushd D:\\pa_config && set COMLICBITSPATH=D:\\pa_config\\comlicbits.h && pushd C:\\pa6autotests\\Builds\\%s\\SourceData && set SOURCEDATA=C:\\pa6autotests\\Builds\\%s\\SourceData && pushd D:\\gitbash\\help && ECHO Please wait... && build.cmd"
-            % (build_number, build_number),
-            shell=True,
-        )
+            f"@ECHO OFF && pushd D:\\pa_config && set COMLICBITSPATH=D:\\pa_config\\comlicbits.h && pushd C:\\pa6autotests\\Builds\\{build_number}\\SourceData && set SOURCEDATA=C:\\pa6autotests\\Builds\\{build_number}\\SourceData && pushd D:\\gitbash\\help && build.cmd", shell=True
+            )
 
         return out

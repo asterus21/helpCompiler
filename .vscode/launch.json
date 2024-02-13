@@ -1,11 +1,10 @@
 {
-    "version": "0.2.0",
     "configurations": [
         {
-            "name": "debugger",
+            "name": "main.py",
             "type": "debugpy",
             "request": "launch",
-            "program": "main.py",
+            "program": "D:\\compiler\\main.py",
             "console": "integratedTerminal"
         }
     ]
