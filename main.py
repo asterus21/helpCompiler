@@ -1,4 +1,6 @@
+import os
 from compiler import *
+
 
 BUILD_PATH = "C:\\pa6autotests\\Builds"
 

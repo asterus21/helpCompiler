@@ -16,7 +16,7 @@ class HelpCompiler:
         and returns a first (usually a single item) of the list."""
 
         build_number = os.listdir(path=build_path)[0]
-        # print(build_number)
+        
         return build_number
 
     def excecute_script(self, build_number: str) -> bytes:
