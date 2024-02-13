@@ -1,11 +1,11 @@
 {
     "configurations": [
         {
-            "name": "main.py",
+            "name": "debug",
             "type": "debugpy",
             "request": "launch",
-            "program": "D:\\compiler\\main.py",
-            "console": "integratedTerminal"
+            "program": "D:/compiler/main.py",
+            "console": "internalConsole"
         }
     ]
 }
