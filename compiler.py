@@ -10,6 +10,8 @@ class HelpCompiler:
     def __init__(self) -> None:
         pass
 
+# it is needed to get the build number in a different way
+
     def show_current_build(self, build_path: str) -> str:
 
         """The function is to accept a path to an auto-test build
@@ -18,6 +20,9 @@ class HelpCompiler:
         build_number = os.listdir(path=build_path)[0]
         
         return build_number
+    
+# it is needed to check if the folder exists
+# otherwise, raise an error
 
     def excecute_script(self, build_number: str) -> bytes:
 
