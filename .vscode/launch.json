@@ -4,7 +4,7 @@
             "name": "debug",
             "type": "debugpy",
             "request": "launch",
-            "program": "D:/compiler/main.py",
+            "program": "D:/compiler/compiler.py",
             "console": "internalConsole"
         }
     ]
