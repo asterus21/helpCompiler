@@ -4,11 +4,11 @@ The script takes a list of paths from a .txt file and the uses these paths to ma
 
 ## **File**
 
-The file is supposed to be named *variables.txt* and placed on the **C:** volume (Windows).
+The file is supposed to be named *variables.txt* and placed on the **C:** volume (root).
 
 ## **Example**
 
-The contents of the file are supposed to consists of the following lines, i.e.
+The contents of the file are supposed to consist of the following lines, i.e.
 
 *C:\\Builds\30594* <br>
 *D:\pa_config* <br>
