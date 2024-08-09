@@ -1,3 +1,0 @@
-"C:\pa6autotests\Builds\30586"
-"D:\pa_config"
-"D:\gitbash\help"
