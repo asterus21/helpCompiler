@@ -1,6 +1,6 @@
 # **Overview**
 
-The script takes a list of paths from a .txt file and the uses these paths to make a new version of the User's Manual.
+The script takes a list of paths from a .txt file and then uses these paths to make a new version of the User's Manual.
 
 ## **File**
 
